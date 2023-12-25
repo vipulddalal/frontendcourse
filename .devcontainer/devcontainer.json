@@ -1,8 +1,15 @@
 
 {
-	"name": "Node.js",
-	
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye"
-
-	
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"ritwickdey.LiveServer",
+				"ms-vsliveshare.vsliveshare",
+				"rvest.vs-code-prettier-eslint"
+			]
+		}
+	}
 }
