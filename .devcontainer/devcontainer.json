@@ -1,4 +1,5 @@
 
+
 {
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
 	"customizations": {
@@ -8,7 +9,9 @@
 				"GitHub.copilot-chat",
 				"ritwickdey.LiveServer",
 				"ms-vsliveshare.vsliveshare",
-				"rvest.vs-code-prettier-eslint"
+				"rvest.vs-code-prettier-eslint",
+				"ms-dotnettools.vscode-dotnet-pack",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	}
